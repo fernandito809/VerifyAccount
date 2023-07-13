@@ -1,0 +1,162 @@
+@media (max-width: 768){
+    body {
+        width: 375px;
+        height: 698px;
+    }
+}
+
+
+
+body {
+    background: #CDB3FA;  
+}
+
+.navbar {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0 30px 0;
+}
+
+.navbar .menu {
+    position: relative;
+    right: 82px;  
+}
+
+.navbar .cart  {
+    position: relative;
+    left: 82px;
+}
+
+.flower {
+    width: 100%;
+    flex-shrink: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.flower-container{
+    display: flex;
+    justify-content: center;
+}
+
+.flower-pic {
+    width: 327px;
+    height: 372px;
+}
+
+.flower .iris {
+    display: flex;
+    margin: 11px 0 0 15px;
+}
+
+.iris-reticulata {
+    color: var(--world-peas-compost-base, #000);
+    font-family: Anton;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 120%;
+    letter-spacing: -0.48px;
+}
+
+.flower-button {
+    border-radius: 100px;
+    border: 1px solid var(--world-peas-compost-base, #000);
+    width: 19px;
+    height: 19px;
+    padding: 6px;
+    margin: 14px 0 0 33px;
+}
+
+.foot {
+    max-width: 327px;
+    justify-content: center;
+
+}
+
+
+.part {
+    display: flex;
+    width: 100%;
+    margin: 40px 20px 10px 18px;
+    font-weight: 600;
+
+}
+
+.quantity {
+    display: flex;
+}
+
+
+.amount { 
+    width: 39px;
+    height: 12px;
+    border: 1px solid #000;
+    border-radius: 80px;
+    padding: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--world-peas-compost-base, #000);
+    text-align: center;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 160%;
+    letter-spacing: -0.16px;
+}
+
+.minus, .plus {
+    width: 20px;
+    height: 20px;
+    border-radius: 100px;
+    border: 1px solid #000;
+    margin: 4px;
+    position: relative;
+    left: 7px;
+}
+
+.price {
+    display: flex;
+    margin: 6px 0 0 138px;
+    color: var(--world-peas-compost-base, #000);
+    font-family: 'Inter';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 160%;
+    letter-spacing: -0.16px;
+}
+
+.sale {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 12px;
+    background: #7201A8;    
+    width: 327px;
+    height: 47px;
+    padding: 0;
+    position: relative;
+    left: 15px;
+    top: 7px;
+}
+
+.addtobasket {
+    margin-right: 140px;
+    font-size: 17px;
+    color: var(--world-peas-cremini-base, #FFF);
+    font-family: 'Inter';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 160%;
+    letter-spacing: -0.16px;
+} 
+
+.basketsale {
+    margin-left: 33px;
+}
+
